@@ -28,7 +28,7 @@ function App() {
         <div>
           <h1 className="font-bold text-6xl sm:text-8xl md:text-9xl">Omnicron</h1>
           <h3 className="m-3 text-2xl md:text-3xl">
-            A comprehensive Cron job monitoring solution
+            A comprehensive cron job monitoring solution
           </h3>
           <div className="flex justify-center">
             <a href="https://www.npmjs.com/package/@omnicron/cli" target="_blank">
@@ -47,7 +47,8 @@ function App() {
               To get started, all you need is{' '}
               <a className="text-bright-green hover:underline" href="https://nodejs.org/en/download" target="_blank">Node</a> and{' '}
               <a className="text-bright-green hover:underline" href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" target="_blank">NPM</a>. 
-              Then, use the commands below to install the Omnicron CLI, set it up, and enable monitoring for your existing cron jobs.
+              Then, use the commands below to install the Omnicron CLI, set up your device, 
+              and enable monitoring for your existing cron jobs.
             </p>
             <br/>
             <pre>
@@ -61,11 +62,11 @@ function App() {
           <div className="xl:max-w-[25vw] py-8 xl:py-0">
             <h2 className="text-3xl font-bold py-2 text-center xl:text-left">Reliable Monitoring</h2>
             <p className="text-xl leading-8">
-              Native Cron jobs are difficult to test and debug, and the last thing you want is
-              unexpected, hard to track down bugs plaguing your background tasks.
+              Native cron jobs are difficult to test and debug, and the last thing you want is
+              unexpected errors plaguing your background tasks.
               Omnicron is built on high-availability{' '}
               <a href="https://aws.amazon.com/what-is/serverless-computing/" target="_blank" className="text-bright-green hover:underline">AWS serverless</a>{' '}
-              infrastructure and monitors all invocations, making Cron jobs simple and predictable.
+              infrastructure and monitors all invocations, making cron jobs simple and predictable.
             </p>
           </div>
           <div className="xl:max-w-[25vw]">
@@ -99,13 +100,11 @@ function App() {
       <div className="bg-bg-lighter min-h-[60vh] max-w-[100vw] text-text-light">
         <div className="p-10 xl:flex xl:justify-center xl:py-20">
           <div className="xl:pr-5 xl:max-w-[35vw]">
-            <h2 className="text-3xl font-bold pb-2 text-center xl:text-left">Get specific invocation data for any job, at any time</h2>
+            <h2 className="text-3xl font-bold pb-2 text-center xl:text-left">Get detailed invocation data for any job, at any time</h2>
             <p className="text-xl leading-8">
-              The CLI gives you full control, allowing you to choose which of your existing jobs
-              to monitor. 
-              For those you want to have monitored, all you need is to run a single command,
-              select <span className="bg-slate-900 p-1 rounded-md">y</span> for the jobs you want to monitor,
-              and Omnicron will do the rest.
+              The CLI offers a variety of filters to browse and select specific jobs
+              and specific invocations. Omnicron securely stores all relevant execution data,
+              and the granular access made possible by the CLI makes debugging cron jobs easier than ever before.
             </p>
           </div>
           <div className="py-5 xl:py-0 xl:pl-5 flex justify-center xl:block xl:max-w-[35vw]">
