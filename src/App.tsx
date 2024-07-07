@@ -96,10 +96,10 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-bg-lighter min-h-[60vh] max-w-[100vw] text-text-light flex justify-center">
-        <div className="p-10 lg:max-w-[70vw] xl:py-20">
-          <div className="">
-            <h2 className="text-3xl font-bold pb-2 text-center">Get specific invocation data for any job, at any time</h2>
+      <div className="bg-bg-lighter min-h-[60vh] max-w-[100vw] text-text-light">
+        <div className="p-10 xl:flex xl:justify-center xl:py-20">
+          <div className="xl:pr-5 xl:max-w-[35vw]">
+            <h2 className="text-3xl font-bold pb-2 text-center xl:text-left">Get specific invocation data for any job, at any time</h2>
             <p className="text-xl leading-8">
               The CLI gives you full control, allowing you to choose which of your existing jobs
               to monitor. 
@@ -108,7 +108,7 @@ function App() {
               and Omnicron will do the rest.
             </p>
           </div>
-          <div className="py-5 flex justify-center">
+          <div className="py-5 xl:py-0 xl:pl-5 flex justify-center xl:block xl:max-w-[35vw]">
             <img src={listDemo}/>
           </div>
         </div>
