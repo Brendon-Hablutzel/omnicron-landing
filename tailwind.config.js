@@ -14,7 +14,8 @@ export default {
         'text-light': 'rgb(209 213 219)'
       },
       fontSize: {
-        'xxs': '0.6rem'
+        // smaller than base, but bigger than sm
+        'smaller': ['0.83rem', '1.3rem'],
       }
     },
   },
